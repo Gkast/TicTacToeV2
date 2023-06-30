@@ -1,0 +1,84 @@
+body {
+    text-align: center;
+    margin: 0;
+    font-family: monospace, sans-serif;
+    background-image: url("../images/Game-8-Bit-Wallpaper.jpg");
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.4);
+    display: inline-block;
+    width: 70%;
+    padding: 20px;
+}
+
+#game-board {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell-row {
+    display: inline-flex;
+}
+
+.cell {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 75px;
+    height: 75px;
+    border: 1px solid;
+    font-size: 40px;
+}
+
+#init-matrix-size-container {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    margin: 20px 0;
+}
+
+#marks-in-a-row {
+    padding: 10px 20px;
+    text-align: center;
+    margin: 10px 0;
+    background-color: white;
+    border: 1px solid;
+    font-size: 15px;
+    font-family: monospace, sans-serif;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 216px;
+    padding-bottom: 20px;
+}
+
+.buttons {
+    background-color: white;
+    border: 1px solid;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: monospace, sans-serif;
+}
+
+#status-text {
+    color: white;
+    font-size: 20px;
+    margin-top: -5px;
+}
+
+h1 {
+    margin: 0 0 10px 0;
+}
+
+#start-button {
+
+}

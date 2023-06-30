@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tic Tac Toe</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="../images/Tic-Tac-Toe-Game-Logo.jpg" type="image/x-icon" rel="icon">
+</head>
+<body>
+<div class="container" id="init-matrix-size-container">
+    <h1>Tic Tac Toe</h1>
+    <label for="marks-in-a-row">Enter how many marks you want in a row to win:</label>
+    <input type="text" id="marks-in-a-row">
+    <div class="button-container">
+        <button type="button" class="buttons" id="start-button">Start</button>
+        <button type="button" class="buttons" id="stop-button">Stop</button>
+    </div>
+    <span id="status-text"></span>
+</div>
+<div class="container" id="game-container">
+    <div id="game-board"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
